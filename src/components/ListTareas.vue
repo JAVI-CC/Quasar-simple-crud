@@ -31,6 +31,8 @@
     <q-card-section>
       {{ descripcion }}
     </q-card-section>
+
+    <slot name="footer" />
   </q-card>
 </template>
 

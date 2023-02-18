@@ -41,6 +41,12 @@ import EssentialLink from "components/EssentialLink.vue";
 
 const linksList = [
   {
+    title: "CRUD simple",
+    caption: "simple crud de tareas",
+    icon: "mdi-google-classroom",
+    link: "tareas",
+  },
+  {
     title: "Docs",
     caption: "quasar.dev",
     icon: "school",
@@ -81,12 +87,6 @@ const linksList = [
     caption: "Community Quasar projects",
     icon: "favorite",
     link: "https://awesome.quasar.dev",
-  },
-  {
-    title: "CRUD simple",
-    caption: "simple crud de tareas",
-    icon: "mdi-google-classroom",
-    link: "tareas",
   },
 ];
 

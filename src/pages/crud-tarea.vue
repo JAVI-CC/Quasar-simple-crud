@@ -57,7 +57,15 @@
           :indice="i"
           @delete-tarea="deleteTareaFn"
           @edit-tarea="editTareaFn"
-        />
+        >
+          <template #footer>
+            <q-separator dark inset />
+            <div class="q-pa-md text-center">
+              <div class="text-h5 q-mb-lg">Slot footer</div>
+              <div><b>El numero de indice es:</b> {{ i }}</div>
+            </div>
+          </template>
+        </ListTareas>
       </div>
     </template>
   </div>
